@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": false,
   "scripts": {
-    "start": "rm -rf ios/build/; kill $(lsof -t -i:8081) && npm install && react-native run-ios && react-native run-android",
+    "start": "npm install && rm -rf ios/build/; kill $(lsof -t -i:8081) && react-native run-ios && react-native run-android",
     "test": "jest"
   },
   "dependencies": {
