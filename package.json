@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": false,
   "scripts": {
-    "start": "napm install && react-native run-ios && react-native run-android",
+    "start": "npm install && react-native run-ios && react-native run-android",
     "test": "jest"
   },
   "dependencies": {
